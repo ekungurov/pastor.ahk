@@ -44,7 +44,7 @@ PasteViaClipboard(value)
   clipboard =
   clipboard = %value%
   ClipWait
-  Send, {CTRLDOWN}v{CTRLUP} 
+  Send, {CTRLDOWN}{vk56}{CTRLUP}
 }
 
 RestoreClipboard()
